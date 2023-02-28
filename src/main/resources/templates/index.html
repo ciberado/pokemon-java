@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Pokemon next gen</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style>
+
+            
+            #pokemonlogo {                
+                position : absolute;
+                width : 98%;
+                margin : 0 auto;
+                z-index : -10;
+                opacity: 0.4;
+            }
+            
+            .card {
+                display : block;
+                min-width: 420px;
+                width : 40%;
+                background-color : white;
+                border : 1px solid silver;
+                padding: 10px;
+                margin : 0 auto;
+                text-align : center;
+            }
+            
+            .card > img {
+                min-width : 400px;
+            }
+            
+            .card h2 {
+                margin : 8px;
+                font-family : sans-serif;
+                font-size : 4em;
+                color : tomato;
+            }
+            
+            button {
+                border : 1px solid silver;
+                padding: 6px;
+                padding-bottom: 20px;
+                margin : 4px;
+                
+                transition: background 2s linear;
+                -webkit-transition: background 2s linear;
+                -moz-transition: background 2s linear;                
+            }
+
+            button img {
+                width: 120px;
+            }
+        </style>
+    </head>
+    <body>
+        <img id="pokemonlogo" src="pokemon-logo.svg" alt="pokemon logo"/>
+        <div class="card">
+            <img th:src="${pokemon.url}" th:alt="${pokemon.name}"/> 
+            <h2 th:text="${pokemon.name}">pokemon</h2>
+            
+            <h2> [[${version}]]</h2>
+        </div>
+    </body>
+</html>
