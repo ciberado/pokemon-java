@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.0.2
+
+* Added SIG TERM handler.
+
 ## v2.0.1
 
 * Changed background color to a wonderful [palegoldenrod](https://en.wikipedia.org/wiki/Goldenrod_(color)).
