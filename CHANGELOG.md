@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.0.4
+
+* Fixed problem with the freaking shutdown process.
+
+## v2.0.3
+
+* Background changed to white, after a requirement from ower beloved marketing team.
+
 ## v2.0.2
 
 * Added SIG TERM handler.
