@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.0.5
+
+* Our marketing team asked us to use [cornsilk](https://www.webmd.com/vitamins/ai/ingredientmono-140/corn-silk) as
+the background color.22
+
 ## v2.0.4
 
 * Fixed problem with the freaking shutdown process.
